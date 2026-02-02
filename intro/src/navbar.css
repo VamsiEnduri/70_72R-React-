@@ -1,0 +1,23 @@
+#navbar{
+    display: flex;
+    background-color: lightblue;
+    padding: 10px 0px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav_Links{
+    display: flex;
+    gap: 30px;
+}
+#nav_Links > span {
+    padding: 5px 20px;
+    outline: none;
+    border-radius: 3px;
+    background-color: lightsalmon !important;
+}
+
+h2{
+    background-color: yellow;
+    padding: 5px;
+}
