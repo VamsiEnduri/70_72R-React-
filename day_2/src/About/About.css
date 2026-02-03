@@ -1,0 +1,31 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+#about {
+  background-color: lightslategray;
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+  gap: 1rem;
+}
+
+#about > #about-txt {
+  /* padding: 1.5rem; */
+  background-color: yellow;
+}
+#about-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+}
+
+#about-txt>h3{
+    font-size: 2rem;
+    margin: 0;
+}
+#about-txt > p {
+    margin: 0 !important;
+    font-size: 1.4rem
+}
