@@ -1,0 +1,35 @@
+what is react?
+what are features of react ?
+what is virtualDom ?
+what is babel ?
+what is reactElement ?
+what is comp and types of comp ?
+what is jsx ?
+how many type of exporting we have in react ?
+what are props in react and types of props in react  ?
+how many can we styling in react ?
+explain about react project folder structure ?
+d/f b/w the package.json vs package-lock.json?
+d/f b/w the react and reactDOM ?
+what is rendering in react ?
+what is re-rendering in react and how can re-rendering can happen ?
+what is diffing algorithm ?
+what is recoincialation ?
+what is conditional rendering ?
+in how many ways we can do conditional rendering ?
+what is list rendering ? explain with an example ?
+what is routing in react and how can we achieve it ?
+what is react router dom and how to install it and what are the main comps of it ?
+what is the d/f b/w the routes vs route in react router dom
+what is Link in react router dom and how it os different from the anchor tag ?
+what is useParams and what is the purpose of it?
+what are hooks in react ?
+what is useState ?
+what is useEffect ?
+what are comp life cycle stages in react ?
+what will happen if we do api calling in react and with out useEffect and 
+how we stop infinte api calling in react ?
+what is form handling in react and how can we do that ?
+what are controlled and uncontrolled comps in react ?
+
+
