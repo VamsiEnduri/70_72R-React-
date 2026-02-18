@@ -1,0 +1,89 @@
+.products-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Category Buttons */
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.categories button {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  background: #667eea;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.categories button:hover {
+  background: #764ba2;
+  transform: translateY(-2px);
+}
+
+/* Cards Grid */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+/* Individual Card */
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Card Hover */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Image */
+.card-image {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+
+/* Card Content */
+.card-title {
+  font-size: 14px;
+  margin: 8px 10px 4px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.card-price {
+  font-weight: bold;
+  color: #667eea;
+  margin: 4px 0;
+}
+
+.card-desc {
+  font-size: 12px;
+  color: #555;
+  padding: 0 10px 10px;
+  height: 50px;
+  overflow: hidden;
+}
