@@ -7,6 +7,7 @@ const Products = () => {
   const [filData, setFilData] = useState([]);
 
   useEffect(() => {
+    
     async function apiCalling() {
       let res1 = await fetch("https://fakestoreapi.com/products");
       let res2 = await res1.json();

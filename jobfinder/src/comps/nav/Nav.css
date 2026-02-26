@@ -1,0 +1,54 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 40px;
+  background-color: #0f172a; /* dark blue */
+  color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Logo */
+.navbar h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+/* Right menu */
+.nav-actions {
+  display: flex;
+  gap: 20px;
+}
+
+/* Buttons */
+.nav-actions span {
+  padding: 8px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+/* Login button */
+.nav-actions span:first-child {
+  background-color: transparent;
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+}
+
+/* Register button */
+.nav-actions span:last-child {
+  background-color: #38bdf8;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+/* Hover effects */
+.nav-actions span:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(56, 189, 248, 0.4);
+}
